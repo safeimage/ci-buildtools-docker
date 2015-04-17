@@ -12,7 +12,7 @@ PROJECT_NAME=$(basename ${PROJECT_DIR} | sed 's/[-_.]//g')
 
 # Docker container and image variables
 CHEF_IMAGE_NAME="releasequeue/chef-client"
-CHEF_IMAGE_VERSION="11.18.6-1"
+CHEF_IMAGE_VERSION="12.1.1-1"
 CHEF_CONTAINER_NAME=${PROJECT_NAME}_chef
 DATA_IMAGE_NAME=${PROJECT_NAME}_chefdata
 DATA_CONTAINER_NAME=${DATA_IMAGE_NAME}
