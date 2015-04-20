@@ -1,8 +1,8 @@
 DEPENDENCIES
   ci-buildtools
     git: https://github.com/ReleaseQueue/ci-buildtools.git
-    revision: 56d631527eccaea64618203115b7ba0b2b6e7b16
-    ref: 56d6315
+    revision: ff66b8f6d0d0ec29ef9161483df173ba0c37ff4c
+    ref: ff66b8f
   rvm
     git: https://github.com/krukgit/chef-rvm.git
     revision: a36572cd8add2878f00f4650f0ebbfd719a7fcbd
@@ -62,7 +62,7 @@ GRAPH
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
     yum-erlang_solutions (>= 0.0.0)
-  git (4.2.0)
+  git (4.2.1)
     build-essential (>= 0.0.0)
     dmg (>= 0.0.0)
     windows (>= 0.0.0)
@@ -91,11 +91,10 @@ GRAPH
     build-essential (>= 0.0.0)
     yum (>= 0.0.0)
   ohai (2.0.1)
+  packagecloud (0.0.17)
   polipo (0.1.0)
-  runit (1.5.18)
-    build-essential (>= 0.0.0)
-    yum (~> 3.0)
-    yum-epel (>= 0.0.0)
+  runit (1.6.0)
+    packagecloud (>= 0.0.0)
   rvm (0.10.1)
     chef_gem (>= 0.0.0)
     java (>= 0.0.0)
