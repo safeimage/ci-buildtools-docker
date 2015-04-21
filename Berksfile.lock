@@ -1,8 +1,8 @@
 DEPENDENCIES
   ci-buildtools
     git: https://github.com/ReleaseQueue/ci-buildtools.git
-    revision: ff66b8f6d0d0ec29ef9161483df173ba0c37ff4c
-    ref: ff66b8f
+    revision: 60f058ba26703daa08db211633880e8673439a80
+    ref: 60f058b
   rvm
     git: https://github.com/krukgit/chef-rvm.git
     revision: a36572cd8add2878f00f4650f0ebbfd719a7fcbd
@@ -56,7 +56,7 @@ GRAPH
     git (>= 0.0.0)
     github (>= 0.0.0)
     libarchive (~> 0.4)
-  erlang (1.5.7)
+  erlang (1.5.8)
     apt (>= 1.7.0)
     build-essential (>= 0.0.0)
     yum (~> 3.0)
