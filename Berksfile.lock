@@ -1,8 +1,8 @@
 DEPENDENCIES
   ci-buildtools
     git: https://github.com/ReleaseQueue/ci-buildtools.git
-    revision: 4f6c0dfdac787e1987c6e19ee5adf1fafe660ce0
-    ref: 4f6c0df
+    revision: 44e51a9ffcb2119d71ef7e3757e44be1e9c268e7
+    ref: 44e51a9
   rvm
     git: https://github.com/krukgit/chef-rvm.git
     revision: a36572cd8add2878f00f4650f0ebbfd719a7fcbd
