@@ -5,7 +5,8 @@
     "recipe[ci-buildtools::ruby]",
     "recipe[ci-buildtools::nodejs]",
     "recipe[ci-buildtools::elixir]",
-    "recipe[ci-buildtools::packaging]"
+    "recipe[ci-buildtools::packaging]",
+    "recipe[ci-buildtools::aws]"
   ],
   "ci-buildtools": {
     "developers": [
